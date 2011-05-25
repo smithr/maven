@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE module PUBLIC "-//Puppy Crawl//DTD Check Configuration 1.2//EN"
+        "http://www.puppycrawl.com/dtds/configuration_1_2.dtd">
+<module name="Checker">
+    <module name="SuppressionCommentFilter"/>
+    <module name="StrictDuplicateCode">
+        <property name="severity" value="warning"/>
+    </module>
+    <module name="TreeWalker"> 
+      <module name="AnnotationUseStyle"/>
+      <module name="AnonInnerLength"/>
+      <module name="BooleanExpressionComplexity"/>
+      <module name="ConstantName"/>
+      <module name="CovariantEquals"/>
+      <module name="CyclomaticComplexity"/>
+      <module name="DefaultComesLast"/>
+      <module name="DoubleCheckedLocking"/>
+      <module name="EmptyStatement"/>
+      <module name="EqualsAvoidNull"/>
+      <module name="EqualsHashCode"/>
+      <module name="FallThrough"/>
+       <module name="FileContentsHolder"/>
+      <module name="FinalClass"/>
+      <module name="HideUtilityClassConstructor"/>
+      <module name="IllegalCatch"/>
+      <module name="IllegalThrows"/>
+      <module name="InnerAssignment"/>
+      <module name="JavadocMethod"/>
+      <module name="JavadocStyle"/>
+      <module name="JavadocType"/>
+      <module name="LineLength"/>
+      <module name="LocalFinalVariableName"/>
+      <module name="LocalVariableName"/>
+      <module name="MagicNumber"/>
+      <module name="MemberName"/>
+      <module name="MethodLength"/>
+      <module name="MethodName"/>
+      <module name="MissingOverride"/>
+      <module name="MissingSwitchDefault"/>
+      <module name="ModifierOrder"/>
+      <module name="MultipleStringLiterals"/>
+      <module name="MultipleVariableDeclarations"/>
+      <module name="NoCloneCheck"/>
+      <module name="PackageName"/>
+      <module name="ParameterAssignment"/>
+      <module name="ParameterName"/>
+      <module name="RedundantModifier"/>
+      <module name="RedundantThrows"/>
+      <module name="SimplifyBooleanExpression"/>
+      <module name="SimplifyBooleanReturn"/>
+      <module name="StaticVariableName"/>
+      <module name="StringLiteralEquality"/>
+      <module name="ThrowsCount"/>
+      <module name="UnnecessaryParentheses"/>
+      <module name="UnusedImports"/>
+      <module name="VisibilityModifier"/>
+    </module>
+</module>
